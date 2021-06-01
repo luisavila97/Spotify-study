@@ -1,0 +1,13 @@
+a.PlaylistNames li {
+  color: #b3b3b3;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+a.PlaylistNames:hover li {
+  color: white;
+}
+
+a.PlaylistNames {
+  text-decoration: none;
+}

@@ -1,0 +1,77 @@
+div.playlist-divBg {
+  display: block;
+  background-color: #380303;
+
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div.playlist-header {
+  margin: 30px;
+  margin-top: 0px;
+  padding-top: 30px;
+}
+
+h1.playlist-texts,
+h2.playlist-texts,
+h3.playlist-texts,
+h4.playlist-texts,
+h5.playlist-texts,
+h6.playlist-texts,
+a.playlist-link,
+p.playlist-p {
+  color: white;
+  margin-left: 25px;
+}
+
+div.playlist-textsContainer {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+img.playlist-image {
+  vertical-align: top;
+  height: 250px;
+}
+
+a.playlist-link {
+  text-decoration: none;
+}
+
+a.playlist-link:hover {
+  text-decoration: underline;
+}
+
+h1.playlist-texts {
+  font-size: 96px;
+  font-family: 'Proxima Nova B';
+}
+
+h2.playlist-texts,
+p.playlist-p {
+  color: #b3b3b3;
+  margin-left: 4px;
+}
+
+a.playlist-link,
+h2.playlist-texts,
+p.playlist-p {
+  font-size: 14px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+p.playlist-p {
+  font-size: 6px;
+}
+
+h3.playlist-texts {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}

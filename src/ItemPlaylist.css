@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  user-select: none;
+}
+
+h2.music-playlist,
+li.list-musicPlaylist {
+  margin: 0px;
+  text-align: left;
+  padding-top: 18px;
+  font-size: 15px;
+  color: #b3b3b3;
+}
+
+h3.singerName {
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+h2.music-Name {
+  color: white;
+  padding-top: 12px;
+  margin-bottom: 2px;
+}
+
+img.album-img {
+  padding: 5px 0;
+  height: 55px;
+}
+
+a.a-playlistMusics,
+li.list-musicPlaylist {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+a.a-playlistMusics:hover {
+  text-decoration: underline;
+}
+
+#row-hover:hover {
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#row-hover:checked {
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.308);
+}
+
+#row-hover:hover a,
+#row-hover:hover h2,
+#row-hover:hover li {
+  color: white;
+}
+
+ol {
+  counter-reset: item;
+  list-style-type: none;
+  list-style-position: inside;
+  padding-left: 10px;
+}
+
+li.list-musicPlaylist {
+  padding-left: 25%;
+}
+
+li.list-musicPlaylist:before {
+  content: counter(item) ' ';
+  counter-increment: item;
+}

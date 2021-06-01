@@ -1,0 +1,28 @@
+div.footer-album {
+  margin: 15px 0px 0px 15px;
+}
+
+div.footer-album img {
+  height: 55px;
+}
+div.footer-album a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+div.footer-album a:hover {
+  text-decoration: underline;
+}
+
+div.name-album-footer {
+  margin-left: 60px;
+  margin-top: -50px;
+}
+
+div.footer-album a.footer-albumName {
+  display: block;
+  color: #b3b3b3;
+  font-size: 11px;
+}

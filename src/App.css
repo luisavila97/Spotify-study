@@ -1,38 +1,51 @@
+@font-face {
+  font-family: Proxima Nova;
+  src: url('./proxima-nova.otf');
+}
+
+@font-face {
+  font-family: Proxima Nova B;
+  src: url('./proxima-nova-bold.otf');
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Proxima Nova', helvetica, arial, sans-serif;
+  position: relative;
+}
+
 .App {
-  text-align: center;
+  background-color: #121212;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div.app-container {
+  display: grid;
+  grid-template-columns: auto 83%;
+}
+div.playlist-container {
+  height: 91vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div.sider-container {
+  height: 91vh;
+  background-color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+div.sider-content {
+  margin: 25px 25px 0 25px;
 }
 
-.App-link {
-  color: #61dafb;
+div.footer-container {
+  height: 9vh;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div.siderBtns {
+  margin-top: 90px;
+}
+
+div.playlists {
+  height: 57vh;
 }

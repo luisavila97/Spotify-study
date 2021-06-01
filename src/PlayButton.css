@@ -1,0 +1,19 @@
+.PlayBtn-rect {
+  fill: white;
+}
+
+button.PlayBtn-button {
+  border: none;
+  border-radius: 50px;
+  background-color: #1db954;
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+  transition: 0.2s;
+}
+
+button.PlayBtn-button:hover {
+  height: 60px;
+  width: 60px;
+  margin: 15px;
+}

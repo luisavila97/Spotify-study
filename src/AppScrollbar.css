@@ -1,0 +1,20 @@
+/* Scrollbar */
+
+div.scrollbar {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+div.scrollbar::-webkit-scrollbar {
+  height: 4px !important;
+  width: 15px;
+}
+
+div.scrollbar::-webkit-scrollbar-thumb {
+  height: 50px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+div.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
